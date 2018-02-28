@@ -14,7 +14,5 @@ libraryDependencies ++= Seq(
   javaWs
 )
 
-sbt rpm:packageBin
-rpmVendor := "typesafe"
-enablePlugins(RpmPlugin)
+enablePlugins(Debianlugin)
 

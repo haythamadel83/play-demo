@@ -13,4 +13,6 @@ libraryDependencies ++= Seq(
   cache,
   javaWs
 )
-enablePlugins(DebianPlugin)
+enablePlugins(RpmPlugin)
+
+

@@ -13,6 +13,8 @@ libraryDependencies ++= Seq(
   cache,
   javaWs
 )
-enablePlugins(RpmPlugin)
 
+sbt rpm:packageBin
+rpmVendor := "typesafe"
+enablePlugins(RpmPlugin)
 
